@@ -12,7 +12,9 @@ Then run `aria2notification.vbs`, the script will run in background. When downlo
 
 ## How to Stop
 
-To stop the script, just create a file named "stop" in the same folder with the script. Don't forget to delete it before you run the script again.
+To stop the script, just create a file that filename starts with "stop" in the same folder with the script. (For example, `stop.txt`) 
+
+Don't forget to delete it before you run the script again.
 
 ## 描述
 
@@ -26,4 +28,4 @@ To stop the script, just create a file named "stop" in the same folder with the 
 
 ## 如何停止脚本
 
-脚本默认一直在后台运行，要停止脚本，只需要在脚本所在的文件夹中创建一个名为 "stop" 的文件，脚本便会自动退出。下次运行前删除该文件即可。
+脚本默认一直在后台运行，要停止脚本，只需要在脚本所在的文件夹中创建一个文件名以 "stop" 开头的文件，比如说 `stop.txt` ，脚本便会自动退出。下次运行前删除该文件即可。
